@@ -1,0 +1,32 @@
+*{
+    padding: 0%;
+}
+fieldset{
+    
+    width:600px;
+    height: 200px;
+    font-style: italic;
+    color: aqua;
+    margin-top: 10%;
+    margin-left: 05%;
+    position: absolute;
+}
+
+img{
+    height:200px;
+    width: 200px;
+    padding: 10px;
+    position: absolute;
+}
+h1{
+    color: aliceblue;
+    padding: 10px;
+    position: absolute;
+    margin-left:250px;
+}
+p{
+    position: absolute;
+    margin-top:40px;
+    margin-left: 230px;
+    padding: 08px;
+}

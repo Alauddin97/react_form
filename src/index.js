@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './component/design.css'
+import './component/design.css';
+import Home from './home'
+
+
 // import './index.css';
 // import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
 const App=()=>{
     return(
-        <div className='design'>
+        <div>
+            <div>
+                <fieldset><Home/></fieldset>
+            </div>
+            <div className='design'>     
             <table className="display">
             <tr><td><label>Name:</label></td><td><input type="text" placeholder="Name"/></td></tr><br/><br/>
             <tr><td><label>Age:</label></td><td><input type="number" placeholder="Age"/></td></tr><br/><br/>
@@ -19,6 +26,8 @@ const App=()=>{
             <tr><td colSpan="5px"><button>SignUp</button></td></tr>
             </table>
         </div>
+        </div>
+
     )
 }
 
