@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './component/design.css';
 import Home from './home'
+import Next from './next'
 
 
 // import './index.css';
@@ -23,7 +24,7 @@ const App=()=>{
                 <input type="radio" name="gender"/>Male
                 <input type="radio" name="gender"/>Female</td></tr><br/><br/>
             <tr><td><label>Date_of_Birth:</label></td><td><input type="date"/></td></tr><br/><br/>
-            <tr><td colSpan="5px"><button>SignUp</button></td></tr>
+            <tr><td colSpan="5px"><button><a href={Next.js}>SignUp</a>  </button></td></tr>
             </table>
         </div>
         </div>
